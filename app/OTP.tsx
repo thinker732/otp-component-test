@@ -42,7 +42,7 @@ export function InputOTPForm() {
     try {
         const res = await fetch('/api/Email', {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: { 'Content-Type': 'application/json' ,'Authorization':'AZZEZEREZRERZZ'},
           body: JSON.stringify(data),
         });
     
